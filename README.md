@@ -7,7 +7,7 @@ This program calculates the number of classes a student needs to attend to achie
 - **Classes Attended**: The number of classes the student has already attended.
 - **Total Classes**: Total classes that have occurred so far.
 - **Attend Section**: This section calculates and displays how the attendance percentage changes as you attend more classes.
-- **Drop Section**: This section calculates and shows how many classes the student can leave and still maintain 75%.
+- **Drop Section**: This section calculates and shows how many classes the student can leave and still maintain 75%. It gives an idea of how many classes a student can afford to leave which can be very helpful in case of emergency.
 
 ## Usage
 
