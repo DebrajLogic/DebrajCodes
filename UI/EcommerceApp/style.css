@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+
+body {
+    /* background-color: #abd6e1; */
+    background: url(https://images.pexels.com/photos/5676485/pexels-photo-5676485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    height: 100vh;
+    width: 100vw;
+}
+
+.shop_container h1 {
+    display: flex;
+    justify-content: center;
+    background-color: #ebbab9e9;
+    color: black;
+    padding: 1%;
+}
+
+.product_container {
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+    gap: 2%;
+}
+
+.products {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 1%;
+    height: 95vh;
+    background: #abd6e1c2;
+}
+
+
+
+.products h2 {
+    text-align: center;
+    margin: 2%;
+}
+
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2%;
+}
+
+.product {
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+    width: 70%;
+    object-fit: cover;
+    padding: 5%;
+    background-color: #edd282a3;
+}
+
+.product:hover {
+    background-color: #e9c75f;
+    box-shadow: 0px 0px 30px yellow;
+    transition: .2s ease-in;
+}
+
+.product h3 {
+    color: rgb(99, 58, 58);
+    margin: 2%;
+}
+
+.product p {
+    color: rgb(95, 80, 169);
+    margin: 2%;
+    font-size: 100%;
+}
+
+.product button {
+    background-color: teal;
+    color: white;
+    margin: 2%;
+    padding: 2%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.product button:hover {
+    font-weight: bold;
+    color: teal;
+    background-color: white;
+    transition: .3s ease-in-out;
+    transform: scale(1.05);
+}
+
+.product_image_container {
+    width: 100%;
+    height: 90%;
+
+    margin-bottom: 2%;
+}
+
+.product_image_container img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* yahan tu 'contain', 'fill' bhi use kar sakta hai */
+}
+
+
+.cart {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 2%;
+    background-color: #abd6e1cc;
+}
+
+.cart h2 {
+    text-align: center;
+    margin: 2%;
+}
+
+.shopping_list_container {
+    border: 1px solid white;
+    border-bottom: 3px solid white;
+    height: 70%;
+    padding: 2%;
+}
+
+
+.cart_item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e9c75f;
+    border-radius: 10px;
+    padding: 3%;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+ul>li {
+    list-style: none;
+}
+
+.cart_total h3 {
+    margin: 3%;
+}
+
+#checkout-btn {
+    margin-left: 35%;
+    padding: 2% 6%;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#checkout-btn:hover {
+    background-color: white;
+    color: black;
+    transition: .3s ease-in;
+    transform: scale(1.05);
+}
+
+.total_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#total-amount {
+    font-weight: bold;
+}
